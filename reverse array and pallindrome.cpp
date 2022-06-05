@@ -23,3 +23,20 @@ int main()
 
     return 0;
 }
+//Palindrome same logic as that of reverse
+#include<bits/stdc++.h>
+using namespace std;
+bool f(string &s,int i)
+{
+    if(i>=s.length()/2)
+    return true;
+    if(s[i]!=s[s.length()-i-1])
+    return false;
+    return f(s,i+1);
+}
+int main()
+{
+    string s;
+    cin>>s;
+    cout<<f(s,0);
+}
