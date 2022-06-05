@@ -1,0 +1,2 @@
+Recursion has two types : Parameterzied and functional recursion.
+Recursion is a function calling itself until a base conditon is satisfied.
