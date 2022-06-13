@@ -1,4 +1,5 @@
 //Arrays are passsed using refrence automatiacally
+//Reverse an array 
 #include<bits/stdc++.h>
 using namespace std;
 void f(int arr[],int i,int n)
