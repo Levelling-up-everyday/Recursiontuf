@@ -6,6 +6,9 @@
 using namespace std;
 void powerset(int arr[], vector<int> &ans, int index ,int n, int sum, int s)
 {
+    //If array has only poitive numbers then we can decrease tc by adding the below condition
+    if(s>sum)
+        return;
 
     if(index==n)
     {
