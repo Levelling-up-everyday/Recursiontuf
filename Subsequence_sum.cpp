@@ -1,3 +1,7 @@
+//Print all the subsequence whose sum =2
+//TC:O(2^n*n)
+//SC: O(n)
+
 #include<bits/stdc++.h>
 using namespace std;
 void powerset(int arr[], vector<int> &ans, int index ,int n, int sum, int s)
